@@ -124,9 +124,14 @@
             </div>
             
             <h3>Interactive Weather Globe</h3>
-            <iframe src="http://www.meteoearth.com/#/,-65.94,-24.29,2.88,4,1,1,1,0,0,time=1518122424" 
-            width="100%" height="528px" frameborder="0" scrolling="no">
-            </iframe>
+            <script type='text/javascript' 
+                    src='//www.meteoearth.com/service/me.js'></script>
+            <div id='meDiv' style='width:420px;height:420px;background:#000;position:relative'>
+            </div>
+            <script type='text/javascript'>
+            var meConfig={div:document.getElementById('meDiv'),
+            viewSettings:{longitude: -14.9113,latitude: 30.0011,zoom:2.5000,is3DEnabled:true,isLightingEnabled:true, isWindEnabled:true}};me_createView(meConfig);
+            </script>
 
           </div>
         </div>
