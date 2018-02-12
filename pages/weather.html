@@ -124,14 +124,9 @@
             </div>
             
             <h3>Interactive Weather Globe</h3>
-            <script type='text/javascript' 
-                    src='//www.meteoearth.com/service/me.js'></script>
-            <div id='meDiv' style='width:420px;height:420px;background:#000;position:relative'>
-            </div>
-            <script type='text/javascript'>
-            var meConfig={div:document.getElementById('meDiv'),
-            viewSettings:{longitude: -14.9113,latitude: 30.0011,zoom:2.5000,is3DEnabled:true,isLightingEnabled:true, isWindEnabled:true}};me_createView(meConfig);
-            </script>
+            <iframe width="100%" height="450" 
+            src="https://embed.windy.com/embed2.html?lat=22.106&lon=104.238&zoom=3&level=surface&overlay=wind&menu=&message=true&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=4.587&detailLon=102.788&metricWind=m%2Fs&metricTemp=%C2%B0C" 
+            frameborder="0"></iframe>
 
           </div>
         </div>
