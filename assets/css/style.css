@@ -66,7 +66,7 @@ img:hover{opacity:0.75}
 .logo > span{ margin-left:-14px}
 .add_banner{float:right; width:728px; height:90px}
 .add_banner img{width:100%; height:100%}
-#navArea{float:left; display:inline; width:100%; padding:0 30px; background-color:#fff}
+#navArea{float:left; display:inline; width:100%; padding:0 0px; background-color:#fff}
 .navbar{border:medium none; border-radius:0}
 .navbar-inverse .navbar-nav > li > a{border-left:1px solid #383838; color:#ddd; font-family:'Oswald',sans-serif; display:inline-block; height:50px; line-height:50px; padding:0 14px; text-shadow:0 1px 1px #000; text-transform:uppercase; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .navbar-inverse .navbar-nav > li:first-child a{border:none}
@@ -79,7 +79,7 @@ img:hover{opacity:0.75}
 .dropdown-menu{background-color:#222}
 .dropdown-menu > li > a{clear:both; color:#ddd; background-color:#222; padding:20px 15px; font-family:'Oswald',sans-serif; -webkit-transition:all 0.5s; -mz-transition:all 0.5s; -ms-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{color:#fff}
-#newsSection{float:left; display:inline; width:100%; padding:0 30px; background-color:#fff; padding-bottom:20px}
+#newsSection{float:left; display:inline; width:100%; padding:0 0px; background-color:#fff; padding-bottom:20px}
 .latest_newsarea{float:left; display:inline; width:100%; background-color:#000; position:relative}
 .latest_newsarea span{ color:#fff; font-family:Oswald,sans-serif; font-size:15px; left:0; line-height:1.8em; margin-right:20px; overflow:hidden; padding:2px 18px 1px 19px; position:absolute; z-index:15}
 .social_area{ position:absolute; right:0; top:0; background:#fff; border-top:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc; height:31px}
